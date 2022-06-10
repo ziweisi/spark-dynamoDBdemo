@@ -9,6 +9,11 @@ object SparkDDB {
 
   def main(args: Array[String]): Unit = {
 
+    /*
+     Reference: https://github.com/audienceproject/spark-dynamodb
+     EMR: cn-north-1, emr-6.6.0
+     */
+
     println("SparkDDB is running...")
 
     if (args.length < 4) {
